@@ -1,0 +1,129 @@
+6 -1 PUT(hanlinxiao,password,123456)
+6 -1 PUT(zzhangau,password,315108)
+6 -1 PUT(zives,password,123456)
+6 -1 PUT(happy,password,123456)
+336 -1 PUT(hanlinxiao,/mailbox/sent/96976A527574D6C400ABDFB6D2D4F9F8,To: hanlinxiao@localhost
+From: hanlinxiao@localhost
+Subject: awdawef
+Message-ID: 96976A527574D6C400ABDFB6D2D4F9F8@PennCloud
+Date: Mon, 17 Dec 2018 20:47:59 GMT
+User-Agent: PennCloud v1.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+
+vsvesves)
+336 -1 PUT(hanlinxiao,/mailbox/rcpt/96976A527574D6C400ABDFB6D2D4F9F8,To: hanlinxiao@localhost
+From: hanlinxiao@localhost
+Subject: awdawef
+Message-ID: 96976A527574D6C400ABDFB6D2D4F9F8@PennCloud
+Date: Mon, 17 Dec 2018 20:47:59 GMT
+User-Agent: PennCloud v1.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+
+vsvesves)
+342 -1 PUT(hanlinxiao,/mailbox/sent/1D11142CDFB0CBF53EE78CA62B562AAA,To: hanlinxiao@localhost
+From: hanlinxiao@localhost
+Subject: adeef
+Message-ID: 1D11142CDFB0CBF53EE78CA62B562AAA@PennCloud
+Date: Mon, 17 Dec 2018 20:53:51 GMT
+User-Agent: PennCloud v1.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+
+aeeffefrrfrfrfrf)
+342 -1 PUT(hanlinxiao,/mailbox/rcpt/1D11142CDFB0CBF53EE78CA62B562AAA,To: hanlinxiao@localhost
+From: hanlinxiao@localhost
+Subject: adeef
+Message-ID: 1D11142CDFB0CBF53EE78CA62B562AAA@PennCloud
+Date: Mon, 17 Dec 2018 20:53:51 GMT
+User-Agent: PennCloud v1.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+
+aeeffefrrfrfrfrf)
+-1 -1 DEL(hanlinxiao,/mailbox/rcpt/96976A527574D6C400ABDFB6D2D4F9F8)
+-1 -1 DEL(hanlinxiao,/mailbox/rcpt/1D11142CDFB0CBF53EE78CA62B562AAA)
+-1 -1 DEL(hanlinxiao,/mailbox/sent/96976A527574D6C400ABDFB6D2D4F9F8)
+-1 -1 DEL(hanlinxiao,/mailbox/sent/1D11142CDFB0CBF53EE78CA62B562AAA)
+339 -1 PUT(hanlinxiao,/mailbox/sent/0F6C29935E844738A2D71DAEA48CA6F6,To: hanlinxiao@localhost
+From: hanlinxiao@localhost
+Subject: SUBJECT 1
+Message-ID: 0F6C29935E844738A2D71DAEA48CA6F6@PennCloud
+Date: Mon, 17 Dec 2018 21:06:20 GMT
+User-Agent: PennCloud v1.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+
+CONTENT 1)
+339 -1 PUT(hanlinxiao,/mailbox/rcpt/0F6C29935E844738A2D71DAEA48CA6F6,To: hanlinxiao@localhost
+From: hanlinxiao@localhost
+Subject: SUBJECT 1
+Message-ID: 0F6C29935E844738A2D71DAEA48CA6F6@PennCloud
+Date: Mon, 17 Dec 2018 21:06:20 GMT
+User-Agent: PennCloud v1.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+
+CONTENT 1)
+339 -1 PUT(hanlinxiao,/mailbox/sent/389A3441D9CFAE3D0800FEB17131A13C,To: hanlinxiao@localhost
+From: hanlinxiao@localhost
+Subject: SUBJECT 2
+Message-ID: 389A3441D9CFAE3D0800FEB17131A13C@PennCloud
+Date: Mon, 17 Dec 2018 21:06:37 GMT
+User-Agent: PennCloud v1.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+
+CONTENT 2)
+339 -1 PUT(hanlinxiao,/mailbox/rcpt/389A3441D9CFAE3D0800FEB17131A13C,To: hanlinxiao@localhost
+From: hanlinxiao@localhost
+Subject: SUBJECT 2
+Message-ID: 389A3441D9CFAE3D0800FEB17131A13C@PennCloud
+Date: Mon, 17 Dec 2018 21:06:37 GMT
+User-Agent: PennCloud v1.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+
+CONTENT 2)
+339 -1 PUT(hanlinxiao,/mailbox/sent/C4697B07CED3BF9808FC52B0B3C0C6A6,To: hanlinxiao@localhost
+From: hanlinxiao@localhost
+Subject: SUBJECT 3
+Message-ID: C4697B07CED3BF9808FC52B0B3C0C6A6@PennCloud
+Date: Mon, 17 Dec 2018 21:10:50 GMT
+User-Agent: PennCloud v1.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+
+CONTENT 3)
+339 -1 PUT(hanlinxiao,/mailbox/rcpt/C4697B07CED3BF9808FC52B0B3C0C6A6,To: hanlinxiao@localhost
+From: hanlinxiao@localhost
+Subject: SUBJECT 3
+Message-ID: C4697B07CED3BF9808FC52B0B3C0C6A6@PennCloud
+Date: Mon, 17 Dec 2018 21:10:50 GMT
+User-Agent: PennCloud v1.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+
+CONTENT 3)
+-1 -1 DEL(hanlinxiao,/mailbox/rcpt/0F6C29935E844738A2D71DAEA48CA6F6)

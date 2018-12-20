@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Mailcontent</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/writemail.css" type="text/css">
+<!--<script type="text/javascript">
+	function backclick(){
+	alert("yes");
+    window.location.href="writemail.html";
+   </script> -->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+		<p id="image_logo"><img src="/title3.png"></p>
+
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/maillist/rcpt/1">Email</a></li>
+        <li><a href="/cloud/1">Cloud</a></li>
+        <li class="last"><a href="/logout">Log out</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- content body -->
+    <aside id="left_column">
+      <h2 class="title">Categories</h2>
+      <nav>
+        <ul>
+          <li><a href="/writemail.html">Write</a></li>
+          <li><a href="/maillist/rcpt/1">Mailbox</a></li>
+          <li><a href="/maillist/sent/1">Sent</a></li>
+
+          <li class="last"><a href="mailtrash.html">Trash</a></li>
+        </ul>
+      </nav>
+      <!-- /section -->
+    </aside>
+    <!-- main content -->
+    <div id="content">
+        <p>#1</p>
+        <p>#2</p>
+        <p>#3</p>
+        <p>#4</p>
+        <p>#5</p>
+		<div id="back_control">
+            <input type="submit" id="btn_bak" value="back" onclick="window.location.href='/maillist/rcpt/1'"/>
+    </div>
+    </div>
+	  
+    <!-- / content body -->
+  </div>
+</div>
+<!-- footer -->
+</body>
+</html>

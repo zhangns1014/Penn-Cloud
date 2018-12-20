@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>login_wrong</title>
+ 
+    <link rel="stylesheet" type="text/css" href="/login.css"/>
+    <style>
+        a:link {
+            color: rgb(54, 58, 70);
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+
+    <script type="text/javascript">
+   function loginclick(){
+    var uservalue=document.myForm.user.value;
+    var passvalue=document.myForm.pass.value;
+   
+    if(uservalue.value=="")
+    {alert("please enter username");
+    return;
+    }
+    else if(passvalue.value=="")
+    {alert("please enter password");
+    return;
+    }
+    else{
+  document.myForm.submit();
+}
+}
+    </script>
+</head>
+ 
+<body>
+<div id="login_frame">
+   <p id="image_logo"><img src="/title2.png"></p>
+ 
+    <form action="/log_in"  name="myForm"  method="POST">
+ 
+        <p><label class="label_input">user name</label><input type="text"  name="user" class="text_field"/></p>
+        <p><label class="label_input">password</label><input type="password" name="pass" class="text_field"/></p>
+ 
+        <div id="login_control">
+            <input type="submit" id="btn_login" value="log in" onclick="loginclick()"/>
+            <a id="forget_pwd" href="/register.html" style="arial">Register now!</a>
+        </div>
+		<p style="color:red;">***</p>
+    </form>
+</div>
+ 
+</body>
+</html>

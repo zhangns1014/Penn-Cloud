@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>register_page</title>
+ 
+    <link rel="stylesheet" type="text/css" href="/login.css"/>
+
+    <script type="text/javascript">
+   function loginclick(){
+    var uservalue=document.document.myForm.user.value;
+    var passvalue=document.myForm.pass.value;
+   
+    if(uservalue.value=="")
+    {alert("please enter username");
+    return;
+    }
+    else if(passvalue.value=="")
+    {alert("please enter password");
+    return;
+    }
+    else{
+  document.myForm.submit();
+}
+}
+    </script>
+</head>
+ 
+<body>
+<div id="login_frame">
+   <p id="image_logo"><img src="/title2.png"></p>
+ 
+    <form action="/register"  name="myForm"  method="POST">
+ 
+        <p><label class="label_input">user name</label><input type="text" name="user" class="text_field"/></p>
+        <p><label class="label_input">password</label><input type="password" name="pass" class="text_field"/></p>
+ 
+        <div id="login_control">
+            <input type="submit" id="btn_login" value="register" onclick="loginclick()"/>
+        </div>
+    </form>
+</div>
+ 
+</body>
+</html>

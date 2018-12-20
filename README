@@ -1,0 +1,35 @@
+Full name:  _MENGYU LU, HANLIN XIAO, ZIHANG ZHANG, NINGSHAN ZHANG_
+SEAS login: _mengyulu, hlxiao, zzhangau, zhangns_
+
+Which features did you implement? 
+  (list features, or write 'Entire assignment')
+mail service (full solution)
+storage (upload, download and delete both text and binary files)
+fault tolerance (full solution)
+
+Did you complete any extra-credit tasks? If so, which ones?
+  (list extra-credit tasks)
+No
+
+Did you personally write _all_ the code you are submitting
+(other than code from the course web page)?
+  [YES] Yes
+  [ ] No
+
+Did you copy any code from the Internet, or from classmates?
+  [ ] Yes
+  [NO] No
+
+Did you collaborate with anyone on this assignment?
+  [ ] Yes
+  [NO] No
+
+How to run the system:
+Backend:   ./master -v
+			./backend -g [bigtable partition] -i [replica index] -v
+Mail: ./server -v 127.0.0.1:5555
+Frontend:  ./balancer -v
+			./Frontendserver -v -i [replica index]
+			./send2nonlocal -v dir/
+	
+

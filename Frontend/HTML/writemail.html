@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>sendmail</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/writemail.css" type="text/css">
+<script type="text/javascript">
+  function sendmailclick(){
+   var receivervalue=document.getElementById("r").value;
+   var titlevalue=document.getElementById("t").value;
+   var mailcontentvalue=document.getElementById("mcontent").value;
+  
+   if(receivervalue.value=="")
+   {alert("please enter receiver");
+   return;
+   }
+   else if(titlevalue.value=="")
+   {alert("please enter title");
+   return;
+   }
+   else if(mailcontentvalue.value=="")
+   {
+   return;
+   }
+   else{
+ document.sendmailform.submit();
+}
+}
+   </script>
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+		<p id="image_logo"><img src="/title3.png"></p>
+
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/maillist/rcpt/1">Email</a></li>
+        <li><a href="/cloud/1">Cloud</a></li>
+        <li class="last"><a href="/logout">Log out</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- content body -->
+    <aside id="left_column">
+      <h2 class="title">Categories</h2>
+      <nav>
+        <ul>
+          <li><a href="/writemail">Write</a></li>
+          <li><a href="/maillist/rcpt/1">Mailbox</a></li>
+          <li><a href="/maillist/sent/1">Sent</a></li>
+        </ul>
+      </nav>
+      <!-- /section -->
+    </aside>
+    <!-- main content -->
+    <div id="content">
+
+ <form action="/send_mail" name="sendmailform" method="POST" >
+ 		<p><h4>receiver:</h4><input id="r" type="text" name="receiver" placeholder="multiple receivers divided by ;" class="text_field" style="width:500px;height:15px;" /></p>
+        <p><h4>title:</h4><input id="t" type="text" name="title" class="text_field" style="width:500px;height:15px;"/></p>
+	  <p><h4>content:</h4><textarea id="mcontent" name="mailcontent" rows="20" cols="69"></textarea></p>
+<!--	  <input type="text" id="contentemail" class="text_field" align="top" style="width:500px;height:200px;"/></p>-->
+ 
+        <div id="send_control">
+            <input type="submit" id="btn_send" value="send" onclick="sendmailclick()"/>
+        </div>
+    </form>
+		
+    </div>
+    <!-- / content body -->
+  </div>
+</div>
+<!-- footer -->
+</body>
+</html>

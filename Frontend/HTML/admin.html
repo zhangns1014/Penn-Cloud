@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Cloud</title>
+<meta charset="UTF-8">
+<link rel="stylesheet"  type="text/css"> 
+
+<style>
+    .btn {
+        background-color: rgb(68, 72, 77);
+        border: none;
+        color: white;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 20px 250px;
+        cursor: pointer;
+        border-radius: 4px;  
+    }
+    .btn:hover{
+    background-color: rgb(230, 88, 45); /* Green */
+    color: white;
+}
+    </style>
+
+<script type="text/javascript">
+   function submitclick(){
+  document.demoForm.submit();
+}
+
+function renewclick(btnid){
+	  
+      window.location.href="/admin.html";
+	  
+  }
+	</script>
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+		<p><input type="submit" id="btnid" value="refresh" onclick="renewclick()"/></p>
+
+    </div>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+	  <div id="content">
+        <table border="1" style="width:100%">
+			<tr><td colspan="3">Load Balance</td></tr>
+        <tr><td>Frontend Servers</td>       <td>Running</td>  <td>Thread Numbers</td>
+		***
+		 <!-- <tr><td>#0</td><td>#1</td></tr>  -->
+        </table>
+		  
+		  <table border="1" style="width:100%">
+			<tr><td colspan="5">Master Nodes</td></tr>
+        <tr><td>Backend Servers</td>  <td>Replica Numbers</td> <td>Primary?</td> <td>Thread Number?</td> <td>Running?</td>
+		###
+		 <!-- <tr><td>#0</td><td>#1</td></tr>  -->
+        </table>
+	  </div>
+  </div>
+</div>
+</body>
+</html>
